@@ -1,23 +1,5 @@
 @charset "utf-8";
-
-/* 포트폴리오 목록 */
-
-.list-container {
-  width: 70%;
-  margin: 0 auto;
-}
-.list {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.list li {
-  width: 40%;
-  background-color: yellow;
-  margin-bottom: 50px;
-}
-.list img {
-  max-width: 100%;
-  height: auto;
+.menu a:hover {
+  background-color: yellow !important;
+  color: red;
 }
